@@ -1,20 +1,32 @@
 <mxfile host="65bd71144e">
     <diagram id="pIaEtrtLPv3HG8r1JEND" name="Page-1">
-        <mxGraphModel dx="690" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="832" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="80" width="400" height="300" as="geometry"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="620" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="80" width="400" height="40" as="geometry"/>
+                <mxCell id="3" value="FIBONACCI SEQUENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="620" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="220" width="120" height="20" as="geometry"/>
+                <mxCell id="6" value="Fibonacci Sequence" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="120" width="240" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Calculate" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="270" width="100" height="40" as="geometry"/>
+                <mxCell id="7" value="&lt;p style=&quot;padding: 0px; line-height: 24px; font-size: 14px; margin: 0px 0px 16px; font-family: Helvetica, Arial, sans-serif; text-align: start;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Enter a number and get the fibonacci number for it!&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="160" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=2;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="240" width="160" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Type in Number..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="220" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="CALCULATE" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="270" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="300" width="30" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
