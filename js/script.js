@@ -10,25 +10,31 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit5-04-JS/sw.js", {
-    scope: "/ICS2O-Unit5-04-JS/",
+  navigator.serviceWorker.register("/ICS2O-Assignment5-JS/sw.js", {
+    scope: "/ICS2O-Assignment5-JS/",
   })
 }
 
 //process
 function myButtonClicked() {
-  const day = document.getElementById("week").value
-  const typeAge = document.getElementById("typeAge").value
-
-  if (
-    day == "Tuesday" ||
-    day == "Thursday" ||
-    (typeAge >= 12 && typeAge <= 25)
-  ) {
-    document.getElementById("weekday-discount").innerHTML =
-      "You are eligible to get a discount!"
-  } else {
-    document.getElementById("weekday-discount").innerHTML =
-      "You are not eligible to get a discount..."
+  let n = document.getElementById("typeNumber").value
+  let first = 0; 
+  let second = 1; 
+  let next = 1;
+ 
+  if(n <= 0){
+    document.getElementById("fibonacciAns").innerHTML = "Invalid Input"
+  }
+  else{
+    console.log("FIBONACCI SERIES");
+    console.log(next);
+    
+    for(let i = 1; i < n; i++){
+    next = first + second;
+    console.log(next);
+    first = second; 
+    second = next; 
+    }
+    document.getElementById("fibonacciAns").innerHTML = next
   }
 }
